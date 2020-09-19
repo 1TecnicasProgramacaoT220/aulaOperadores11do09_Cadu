@@ -22,14 +22,36 @@ public class Calculadora {
         //Apresentação
         System.out.println("\n\t\t\t -- Calculadora Simples --\n");
         
+        //Apresentação de Soma Simples -- Carlos
+        System.out.println("Soma Simples\n");
+        
         //Entrada de dados
         System.out.print("Informe N1:");
         n1 = entrada.nextInt();
         System.out.print("Informe N2:");
         n2 = entrada.nextInt();
+        
+        
         //Processamento
-        total = n1 + n2 ;
-        System.out.printf("\n%d + %d = %d\n", n1, n2, total);
+        total = n1 + n2;
+        
+        //Saída
+        System.out.printf("\n\t\t%d + %d = %d\n", n1, n2, total);
+        
+        //Apresentação da Subtração -- Amanda
+        System.out.println("Subtração\n");
+        
+        //Entrada
+        System.out.print("Informe N1: ");
+        n1 = entrada.nextInt();
+        System.out.print("Informe N2: ");
+        n2 = entrada.nextInt();
+        
+        //Processamento
+        total = n1 - n2;
+        
+        //Saída
+        System.out.printf("\n\t\t%d - %d = %d\n", n1, n2, total);
         
     }
 }
