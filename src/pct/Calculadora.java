@@ -53,5 +53,27 @@ public class Calculadora {
         //Saída
         System.out.printf("\n\t\t%d - %d = %d\n", n1, n2, total);
         
+        //Apresentação da Multiplicação - Camilla
+        System.out.println("Multiplicação\n");
+        
+        //Entrada
+        System.out.print("Informe N1: ");
+        n1 = entrada.nextInt();
+        System.out.print("Informe N2: ");
+        n2 = entrada.nextInt();
+        
+        //Processamento
+        total = n1 * n2;
+        
+        //Saída
+        System.out.printf("\n\t\t %d * %d = %d\n", n1, n2, total);
+                
+       
+    
+                
+   
+                
+              
+     
     }
 }
